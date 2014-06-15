@@ -1,0 +1,153 @@
+/* Google Web Fonts */
+@import url(http://fonts.googleapis.com/css?family=Cantarell:regular,italic,bold,bolditalic);
+.cantarell {
+    font-family: 'Cantarell', arial, sans-serif;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+body {
+	font-family: 'Cantarell', arial, sans-serif;
+	font-size: 14px;
+	background-color: #D0D0D0;
+}
+h1 {
+	font-family: 'Cantarell', arial, sans-serif;
+	font-size: 24px;
+	color: #95bedf;
+}
+h2 {
+	font-family: 'Cantarell', arial, sans-serif;
+	font-size: 21px;
+	color: #5D819E;
+}
+h3 {
+	font-family: 'Cantarell', arial, sans-serif;
+	font-size: 18px;
+}
+h4 {
+	font-family: 'Cantarell', arial, sans-serif;
+	font-size: 16px;
+}
+p {
+	font-family: 'Cantarell', arial, sans-serif;
+	font-size: 14px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+a:link {
+	color: #5d819e;
+}
+a:visited {
+    color: #5d819e;
+    text-decoration: none;
+}
+a:hover {
+    color: #f2932e;
+    text-decoration: underline;
+}
+
+div {
+    overflow: visible;
+}
+img {
+    border: none;
+}
+
+/* class and id selectors */
+#pageContent {
+	width: 760px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+#banner {
+	background-image: url(../images/bannerBG.png);
+	background-repeat: repeat-x;
+	width:inherit;
+	height:45px;
+}
+.logo {
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 134px;
+	height: 45px;
+	margin-left:5px;
+}
+
+#productBanner {
+	position: relative;
+	background-image: url(../images/productBG.png);
+	background-repeat: repeat-x;
+	width:inherit;
+	height:228px;
+}
+#productPreview {
+	background-image: url(../images/productPreview.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	width: 252px;
+	/*height: 218px;*/
+	height: inherit;
+	float: right;
+	margin-right: 50px;
+}
+#getIt {
+	background-image: url(../images/getItButton.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	width: 300px;
+	height: 88px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+#getIt a {
+	display: block;
+	height: 88px; /*match to #getIt height*/
+}
+.shadowHorz {
+	position: absolute;
+	bottom: 0;
+	background-image: url(../images/shadowHorz.png);
+	background-repeat: repeat-x;
+	width: inherit;
+	height: 5px;
+	clear: both;
+}
+
+#productBody {
+	position: relative;
+	width: inherit;
+}
+.info {
+	float: left;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	width: 300px;
+	background-color: #DBE9F4;
+}
+.infoGutter {
+	float: left;
+	width: 50px;
+}
+.infoDivider {
+	float: left;
+	width: 40px;
+}
+
+.clearFloat {
+	clear: both;
+	height: 40px;
+}
+
+
+#footer {
+	height: 35px;
+	text-align: center;
+	font-family: 'Cantarell', arial, sans-serif;
+	font-size: 12px;
+	text-shadow: 1px 2px 3px #bbb;
+}
